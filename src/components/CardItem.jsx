@@ -20,7 +20,7 @@ function CardItem(props) {
                 </div>
                 {/* <hr /> */}
                 <div className="item-footer">
-                    <img classname="footer-img" src={SendIcon} alt="" />
+                    <img src={SendIcon} alt="" />
                     <span className="footer-text">Contact Supplier</span>
                 </div>
             </div>

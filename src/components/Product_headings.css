@@ -15,3 +15,7 @@
     display: flex;
     padding: 5px 15px;
 }
+.remove-all{
+    color: red;
+    font-weight: 600;
+}
