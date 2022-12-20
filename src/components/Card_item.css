@@ -54,11 +54,33 @@
     margin-top: 5px;
 }
 .item-footer{
+    display: flex;
     width: 100%;
     border-top: solid 1px grey;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 0px;
 }
 .item-footer > img{
     width: 30px;
     height: 30px;
-    color: blue;
+    color: rgb(0, 165, 165);
+    margin-top: 5px;
+}
+.footer-text{
+    /* text-align: center; */
+    font-size: larger;
+    font-weight: bold;
+    color:#00a5a5;
+    font-size: 22px;
+    display: block;
+}
+.bottom-line{
+    margin: -20px auto 0 auto;
+    width: 392px;
+    height: 13px;
+    background-color: #a80202;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
