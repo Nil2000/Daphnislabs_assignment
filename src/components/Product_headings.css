@@ -1,0 +1,17 @@
+.product_headings{
+    margin: 10px 10px;
+    display: flex;
+    align-items:baseline;
+}
+.product_name{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.count_products{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.chip-items{
+    display: flex;
+    padding: 5px 15px;
+}
