@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import MainBody from './components/MainBody';
 import Path from './components/Path';
-import Product_headings from './components/Product_headings';
+import ProductHeadings from './components/ProductHeadings';
 import Search from './components/Search';
 import Sidebar from './components/Sidebar';
 
@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <Path/>
       <Search/>
-      <Product_headings/>
+      <ProductHeadings/>
       <div className="main-content">
         <Sidebar/>
         <MainBody/>

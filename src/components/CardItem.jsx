@@ -3,7 +3,7 @@ import Img from "../assets/fabiflu-200mg-favipiravir-200mg-glenmark--500x500.web
 import SendIcon from "../assets/icons8-email-send-90.png";
 import "./Card_item.css";
 
-function Card_item(props) {
+function CardItem(props) {
     return (
         <div className="card-item">
             <img src={Img} alt="" />
@@ -26,4 +26,4 @@ function Card_item(props) {
     );
 }
 
-export default Card_item;
+export default CardItem;

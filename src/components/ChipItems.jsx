@@ -7,7 +7,7 @@ import "./Chip_items.css";
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 
-export default function Chip_items() {
+export default function ChipItems() {
 
     const handleDelete = () => {
         console.info('You clicked the delete icon.');

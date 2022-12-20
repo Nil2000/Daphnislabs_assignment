@@ -1,5 +1,5 @@
 import React from 'react'
-import Card_item from './Card_item'
+import CardItem from './CardItem'
 import "./MainBody.css"
 
 function MainBody() {
@@ -12,12 +12,12 @@ function MainBody() {
     }
   return (
     <div className='main--body'>
-        <Card_item item={item}/>
-        <Card_item item={item}/>
-        <Card_item item={item}/>
-        <Card_item item={item}/>
-        <Card_item item={item}/>
-        <Card_item item={item}/>
+        <CardItem item={item}/>
+        <CardItem item={item}/>
+        <CardItem item={item}/>
+        <CardItem item={item}/>
+        <CardItem item={item}/>
+        <CardItem item={item}/>
     </div>
   )
 }
